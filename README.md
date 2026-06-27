@@ -1,5 +1,5 @@
 
-<h1 align="center">Zero-Shot Depth from Defocus</h1>
+<h1 align="center">[ECCV 26] Zero-Shot Depth from Defocus</h1>
   <p align="center">
     <a href="https://zuoym15.github.io/"><strong>Yiming Zuo*</strong></a>
     ·
@@ -40,7 +40,8 @@ Released under CC BY 4.0 License at
 - Website and test server: [https://zedd.cs.princeton.edu/](https://zedd.cs.princeton.edu/).
 - Huggingface download link: [https://huggingface.co/datasets/venkatsubra/ZEDD](https://huggingface.co/datasets/venkatsubra/ZEDD).
 
-## Roadmap
+## News and Roadmap
+- 🎉 Accepted to ECCV 2026!
 - ✅ Release FOSSA training code
 - ✅ Release FOSSA evaluation code
 - ✅ Release ZEDD dataset and test server

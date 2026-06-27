@@ -222,9 +222,11 @@ def eval_depth(pred, target, mask, step=None, eval_in_disparity_space=False, con
     rmse = torch.sqrt(torch.mean(torch.pow(diff, 2)))
     rmse_log = torch.sqrt(torch.mean(torch.pow(diff_log , 2)))
 
+    mae = torch.mean(torch.abs(diff))
+
     log10 = torch.mean(torch.abs(torch.log10(pred) - torch.log10(target)))
     silog = torch.sqrt(torch.pow(diff_log, 2).mean() - 0.5 * torch.pow(diff_log.mean(), 2))
     
 
     return {'d1_05': d1_05.item(), 'd1_15': d1_15.item(), 'd1': d1.item(), 'd2': d2.item(), 'd3': d3.item(), 'abs_rel': abs_rel.item(), 'sq_rel': sq_rel.item(), 
-            'mse': mse.item(), 'rmse': rmse.item(), 'rmse_log': rmse_log.item(), 'log10':log10.item(), 'silog':silog.item(), 'F1': F1}
+            'mse': mse.item(), 'rmse': rmse.item(), 'rmse_log': rmse_log.item(), 'mae': mae.item(), 'log10':log10.item(), 'silog':silog.item(), 'F1': F1}
