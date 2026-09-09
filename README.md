@@ -1,5 +1,5 @@
 
-<h1 align="center">[ECCV 26] Zero-Shot Depth from Defocus</h1>
+<h1 align="center">[ECCV 26 Spotlight] Zero-Shot Depth from Defocus</h1>
   <p align="center">
     <a href="https://zuoym15.github.io/"><strong>Yiming Zuo*</strong></a>
     ·
@@ -25,7 +25,7 @@
   </p>
 </p>
 
-<h3 align="center"><a href="https://arxiv.org/abs/2603.26658">Paper</a>  · </a><a href="https://zedd.cs.princeton.edu/">Project</a> </a></h3>
+<h3 align="center"><a href="https://arxiv.org/abs/2603.26658">Paper</a>  · </a><a href="https://zedd.cs.princeton.edu/">Project</a> · </a><a href="https://www.youtube.com/watch?v=zyYl0SHvLLs">Video</a>   </a></h3>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.26658">
